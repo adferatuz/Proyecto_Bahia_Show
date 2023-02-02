@@ -1,0 +1,49 @@
+.parent{
+    display:list-item;
+    flex-direction: row;
+    border-radius: 20px;
+    
+   
+}
+
+.titulo{
+    
+    background: linear-gradient(
+        45deg,
+        red, blue, deeppink, blue,
+         red, blue, deeppink,blue);
+    
+    background-size: 800%;
+    border-radius: 10px;
+   
+    animation: glowing 20s linear infinite;
+    
+    border: none;
+    padding: 4px 8px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+.span1{
+    z-index: 1;
+    background: black;
+    border-radius: 10px;
+}
+
+

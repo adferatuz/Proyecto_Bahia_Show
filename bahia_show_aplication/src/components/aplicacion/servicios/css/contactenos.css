@@ -1,0 +1,15 @@
+.formulario-contacto{
+    max-width: 1000px;
+    height: 400px;
+
+    display: grid;
+    place-items: center;
+    background-color: #fff;
+    opacity: .8;
+    border-radius: 80px;
+    margin-top: 50px;
+    
+}
+.titulo-contacto{
+    color: black;
+}
