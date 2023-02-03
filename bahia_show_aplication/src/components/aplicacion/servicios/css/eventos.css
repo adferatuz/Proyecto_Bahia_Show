@@ -1,0 +1,20 @@
+.contenedor-videos{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.cards{
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: #fff;
+    flex: 1;
+    transition: .3s all ease;
+    
+}
+
+.cards:hover{
+    flex: 2;
+    background-color: rgb(207, 207, 207);
+}
