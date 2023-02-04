@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
+import video1 from '../servicios/imagenes/WhatsApp Video 2023-02-03 at 6.57.35 PM.mp4'
+
 
 import '../servicios/css/eventos.css'
 
@@ -39,7 +41,16 @@ const Eventos =({}) => {
             </div>
             
             <div className="contenedor-videos">
-                <div className="cards"> </div>
+                <div className="cards">
+                    <ReactPlayer
+                        className='react-player'
+                        url={video1}
+                        width='100%'
+                        height='100%'
+                        controls
+                        
+                    />
+                </div>
                 <div className="cards"></div>
                 <div className="cards"></div>
                 

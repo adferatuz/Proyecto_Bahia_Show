@@ -5,7 +5,6 @@ import img3 from '../servicios/imagenes/Captura de pantalla (15).png'
 import img4 from '../servicios/imagenes/Captura de pantalla (16).png'
 import '../servicios/css/galeria.css'
 
-
 const Galeria = ({}) => {
 
     return (
